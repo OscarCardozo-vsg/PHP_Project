@@ -1,0 +1,161 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS, Bahnschrift SemiBold, Consolas;
+  }
+  
+  body{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.login{
+    max-width: 400px;
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.4) 0px 15px 12px;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;  
+  }
+
+  .icono{
+    height: 10rem;
+    display: flex;
+    margin: auto;
+  }
+  
+  .form-check {
+    display: flex;
+    min-height: 1.5rem;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .form-check label{
+    margin-left: 1rem;
+  }
+  
+  a {
+    display: flex;
+    justify-content: center;
+    color: #b0dcff;
+    text-decoration: underline;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: #99b8ff  ;
+    text-decoration: underline;
+  }
+  
+  .btn-info{
+    background-color: skyblue;
+    border-color: skyblue;
+    margin: 12px 0;
+  }
+  
+  .form-signin {
+    max-width: 330px;
+    padding: 15px;
+  }
+  
+  .form-signin .form-floating:focus-within {
+    z-index: 2;
+  }
+  
+  .login input[type="email"] {
+    margin-bottom: -1px;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  
+  .login input[type="password"] {
+    margin-bottom: 10px;
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }
+  
+  hr{
+    background-color: black;
+    border-color: black;
+    margin: 20px 0;
+    height: 3px;
+    opacity: calc(0.7);
+  }
+
+  .register{
+    max-width: 700px;
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.4) 0px 15px 12px;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;  
+  }
+  
+  .title{
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .register form .user-details{
+    display: flex;
+    flex-wrap: wrap;  
+  }
+  
+  form .user-details .form-floating{
+    width: calc(100%/ 2 - 20px);
+  }
+  
+  .form-floating{
+    margin: 7.5px;
+  }
+  
+  .genero{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  
+  form .genero .gener-title{
+    font-size: 20px;
+    font-weight: 500;
+    margin-right: 20px;
+  }
+  
+  form .genero .categoria{
+    display: flex;
+    width: 80%;
+    margin: 10px 7px;
+    margin-bottom: 0;
+  }
+  
+  .genero .categoria label{
+    display: flex;
+    align-items:  center;
+    margin-right: 20px;
+  }
+  
+  .genero .categoria .check-bottom{
+    height: 18px;
+    width: 18px;
+    background: #ffdcf1;
+    border-radius: 50%;
+    margin-right: 10px;
+    border: 3px solid transparent;
+  }
+  
+  #bottom-1:checked ~ .categoria label .one,
+  #bottom-2:checked ~ .categoria label .two,
+  #bottom-3:checked ~ .categoria label .three{
+    border-color: #ffdcf1;
+    background: #ff5656;
+  }
+  
+  form input[type="radio"]{
+    display: none;
+  }

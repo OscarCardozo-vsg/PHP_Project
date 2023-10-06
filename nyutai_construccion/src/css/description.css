@@ -1,0 +1,64 @@
+*{
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Comic Sans MS, Bahnschrift SemiBold, Consolas;
+  }
+  
+  body{
+    background-image: url(../images/background.jpg);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+.description{
+    max-width: 1300px;
+    width: 100%;
+    padding: 30px;
+    margin: 30px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.4) 0px 15px 12px;
+    backdrop-filter: blur(6px);
+    border-radius: 10px;  
+  }
+
+.forms{
+    display: flex;  
+}
+
+.get {
+    margin-top: 15px;
+    text-align: center;
+}
+
+#formFile{
+    display: grid;
+    justify-items: center;
+}
+
+.icono{
+    width: 300px;
+    margin: 10px 0;
+}
+
+#formPost{
+    justify-content: center;
+    align-items: center;
+    width: calc(100% -  360px);
+    margin-left: 25px;
+}
+
+.descriptionText{
+    height: 300px;
+}
+
+.buttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btn{
+    margin: 0 25px;
+}
+
